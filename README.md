@@ -53,15 +53,15 @@ a previous stage's internals — the only thing passed forward is the file.
    │                  │   no repo link exists or GitHub can't be reached.
    └────────┬─────────┘
             v
-   ┌─────────────────┐
+    ┌─────────────────┐
     │  2. ANALYZE      │   Sends the candidate's raw data + a fixed
     │  analyze.py      │   thesis + scoring rubric to Groq. Gets back a
-   │                  │   structured score (5 dimensions, 0-100 total), a
-   │                  │   verdict, and — critically — a note on which
-   │                  │   input field grounds every claim it makes.
-   │                  │   Anything malformed gets rejected and the
-   │                  │   candidate is skipped, not guessed at.
-   └────────┬─────────┘
+    │                  │   structured score (5 dimensions, 0-100 total), a
+    │                  │   verdict, and — critically — a note on which
+    │                  │   input field grounds every claim it makes.
+    │                  │   Anything malformed gets rejected and the
+    │                  │   candidate is skipped, not guessed at.
+    └────────┬─────────┘
             │  outputs/analysis/<name>.json
             v
    ┌─────────────────┐
@@ -198,12 +198,13 @@ python run.py --topic "AI agents for SMBs" --refresh
 pytest tests/ -v
 ```
 
-12 tests, covering:
+15 tests, covering:
 - HN title parsing, including the malformed/no-separator fallback path
 - Filtering out non-Show-HN posts and duplicate names
 - Correct numeric (not lexicographic-string) sorting by traction
 - Memo rendering, including how empty lists (no risks found, no data
   gaps) render as an explicit "none identified" rather than a blank section
+- LLM analysis parsing, schema validation, and error isolation (`test_analyze.py`)
 
 The analysis stage (the actual LLM call) isn't covered by a live-API test
 — instead it's protected by schema validation
@@ -227,6 +228,7 @@ prompts/
 tests/
   test_source_hn.py          # HN parsing/filtering/sorting tests
   test_memo.py                # memo rendering tests
+  test_analyze.py             # Groq LLM scoring & schema validation tests
   fixtures/                   # sample HN API response used by the tests
 outputs/
   raw/                        # sourced candidates, per topic
@@ -244,11 +246,9 @@ These serve different purposes and shouldn't be confused for each other:
   order, what was rejected and why, including a real bug (a string-vs-
   numeric sort, and a live GitHub rate-limit hit) that surfaced during
   development.
-- **`NOTES.md`** is left intentionally blank as a skeleton. It's meant to
-  hold the personal reflection on how the work was actually approached —
-  written by the person submitting this, in their own words, not
-  generated. Ghostwritten reflection is easy to spot and explicitly
-  called out as a red flag in this kind of evaluation.
+- **`NOTES.md`** covers the process reflection — how the work was actually
+  approached, key engineering trade-offs, handling real data surprises, and
+  reflections on working alongside AI tools.
 
 ## Known limitations
 

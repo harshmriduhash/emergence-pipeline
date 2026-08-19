@@ -1,31 +1,32 @@
 # Portal (SPC F25) ❌
 
-**Verdict: Pass**  (61/100)
+**Verdict: Pass**  (56/100)
 
-> While Portal describes a concrete workflow (replacing manual product demos for SMBs) and appears aimed at non‑technical operators, the publicly available signals of traction, team depth, and a clear why‑now market narrative are weak. The weighted score falls well below the 45‑point threshold, leading to a Pass.
+> The startup shows a novel sandbox‑sharing tool, but there is scant traction, minimal team validation, and an unfocused workflow scope. Weighted scores sum to a low overall rating, falling well below the 45‑point threshold for a Watch.
 
 ---
 
 ## What would change our mind
-- Evidence of active paying customers or revenue from SMBs.
-- A public GitHub repo showing recent commits and community interest (stars, forks).
-- Clear data on adoption speed (e.g., number of demos run within weeks of launch).
+- Evidence of paying SMB customers regularly using the product for demos.
+- Clear founder background showing prior successful startup or deep domain expertise.
+- A single, narrowly defined manual task that the tool fully automates end‑to‑end.
 
 ---
 
 ## Team
-The founder is Zach (HN user zach4123), who previously built a Chrome extension to help people with disabilities control Gmail by voice. No other team information is provided.
+Founder Zach (HN user zach4123) is the only publicly identified team member; no additional background or prior startup experience is provided.
 
 ## Product
-Portal lets a user generate a shareable link that opens a live, sandboxed browser session pre‑loaded with a specific product state. Recipients can interact with the product without signing up or installing anything, and the founder also offers an AI‑driven demo mode that walks users through the experience.
+Portal lets users share a live, sandboxed browser session via a link, providing each viewer with a fresh, isolated browser instance that can be configured with guardrails. It offers a "Watch Mode" where an AI agent clicks through a demo and explains the product, and a "Play Mode" where users explore while the AI answers questions.
 
 ## Market
-The tool targets SMBs that need to demo software, collect user‑research feedback, or onboard customers without the friction of installs or sign‑ups. The rise of LLM‑powered agents and cheaper cloud compute make such sandbox‑plus‑AI demos more feasible now, but the market size is not quantified in the data.
+The product targets SMBs that need to run product demos, onboarding, or user‑research sessions without requiring installs or logins. The pitch leans on current advances in LLM‑driven agents and the growing need for low‑friction, remote product experiences, but it does not quantify market size or articulate a concrete why‑now narrative.
 
 ## Risks / open questions
-- Limited traction evidence – only 5 HN points and no comments or public usage metrics.
-- No public code repository or open‑source activity to validate technical execution.
-- Unclear differentiation – many existing remote‑demo or screen‑sharing tools exist; the AI component is not demonstrated.
+- Limited evidence of real‑world traction (only 5 HN points, no comments, no user metrics).
+- Team credibility is weak; no publicly known prior experience or technical depth beyond the founder’s HN profile.
+- The solution addresses several related workflows (demos, onboarding, feedback) rather than a single, well‑defined manual task, which may dilute focus.
+- No public code repository or open‑source activity to gauge engineering capability or community interest.
 
 ---
 
@@ -33,26 +34,26 @@ The tool targets SMBs that need to demo software, collect user‑research feedba
 
 | Dimension | Score | Max |
 |---|---|---|
-| Workflow specificity | 20 | 30 |
-| Buyer fit | 18 | 20 |
-| Traction signal | 10 | 25 |
-| Team credibility | 8 | 15 |
+| Workflow specificity | 22 | 30 |
+| Buyer fit | 16 | 20 |
+| Traction signal | 8 | 25 |
+| Team credibility | 5 | 15 |
 | Market / why now | 5 | 10 |
-| **Total** | **61** | **100** |
+| **Total** | **56** | **100** |
 
 ## Traceable claims
 - Portal lets you share a live sandbox browser session as a link. _(source: raw_text)_
-- The product aims to replace the need to ask someone to sign up, install software, or book a demo for user research, onboarding, or sales. _(source: raw_text)_
-- In Watch Mode, an AI Agent clicks through a demo and explains the product. _(source: raw_text)_
-- Founder is HN user zach4123 and previously built a Chrome extension for voice‑controlled Gmail. _(source: founder_signal, raw_text)_
+- The tool aims to replace inbound product demos in sales for SMBs. _(source: raw_text)_
+- Founder is Zach, an HN user (zach4123). _(source: founder_signal)_
 - Traction signal: 5 HN points, 0 comments. _(source: traction_signal)_
-- No GitHub repository or stars are listed. _(source: github_url, github_stars)_
+- No public GitHub repository is linked. _(source: github_url)_
+- Product includes an AI Agent that can click through a demo and explain the product. _(source: raw_text)_
+- Potential use cases listed: user feedback, onboarding, sales demos for SMBs. _(source: raw_text)_
 
 ## Data gaps
-- No quantitative usage metrics (users, demos, revenue).
-- No detailed team background beyond the founder’s HN handle.
-- No public code repository or technical documentation to assess implementation depth.
-- No explicit market sizing or competitive analysis.
+- Quantitative user or revenue metrics to assess real traction.
+- Detailed founder or team background (prior startups, domain expertise, technical credentials).
+- Explicit market sizing or competitive analysis to justify a why‑now advantage.
 
 ---
 

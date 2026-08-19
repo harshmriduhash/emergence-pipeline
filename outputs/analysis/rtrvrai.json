@@ -1,0 +1,63 @@
+{
+  "candidate_name": "rtrvr.ai",
+  "team": "The founder is listed as HN user arjunchint. No additional background, prior startup experience, or domain expertise is provided in the sourced data.",
+  "product": "rtrvr.ai is a Chrome extension that lets users automate web\u2011browser tasks, extract structured data from any website, and connect to tools like Slack or Snowflake via AI function calling. It advertises many possible workflows (lead generation, PDF bulk processing, multi\u2011step job\u2011application filling, etc.) rather than a single defined task.",
+  "market": "The product is pitched at marketers, sales professionals, and SMBs who need to extract information from the web. The launch leverages recent availability of LLM function\u2011calling APIs, but no explicit market size or timing rationale is given.",
+  "risks": [
+    "The offering is very broad, replacing many workflows rather than a single, well\u2011defined manual task, which dilutes focus.",
+    "Buyer fit is implied but not demonstrated with concrete SMB operator adoption.",
+    "Limited traction evidence (only HN points/comments) and no usage metrics or revenue data.",
+    "Team credibility cannot be verified beyond a HN username; no technical or domain credentials are shown.",
+    "No clear competitive advantage or defensibility; many similar web\u2011automation tools exist."
+  ],
+  "scores": {
+    "workflow_specificity": 8,
+    "buyer_fit": 15,
+    "traction_signal": 10,
+    "team_credibility": 5,
+    "market_why_now": 5
+  },
+  "verdict": "Pass",
+  "verdict_rationale": "The startup scores low on workflow specificity (broad, multi\u2011task positioning) and overall receives only 43 points, below the 45\u2011point threshold and the required 20 points for workflow specificity. Combined with weak evidence of traction and team credibility, it does not meet the thesis criteria.",
+  "change_my_mind": [
+    "Evidence of a single, clearly defined manual task that the product fully automates end\u2011to\u2011end.",
+    "Verified usage metrics (e.g., number of active users, revenue, retention) showing real SMB adoption within weeks.",
+    "Founders with demonstrable relevant experience (prior AI startup, web\u2011automation expertise, or SMB domain background)."
+  ],
+  "claims_with_sources": [
+    {
+      "claim": "rtrvr.ai is a Chrome extension that automates web tasks and extracts data.",
+      "source": "raw_text"
+    },
+    {
+      "claim": "The product advertises multiple use cases (LinkedIn lead extraction, PDF bulk processing, job\u2011application automation, etc.).",
+      "source": "raw_text"
+    },
+    {
+      "claim": "The founder is identified as HN user arjunchint.",
+      "source": "founder_signal"
+    },
+    {
+      "claim": "The launch received 7 HN points and 4 comments.",
+      "source": "traction_signal"
+    },
+    {
+      "claim": "No GitHub repository or stars are provided.",
+      "source": "github_url"
+    },
+    {
+      "claim": "Target audience includes marketers, sales professionals, and SMBs.",
+      "source": "raw_text"
+    },
+    {
+      "claim": "The product leverages AI function calling APIs.",
+      "source": "raw_text"
+    }
+  ],
+  "data_gaps": [
+    "No quantitative traction data (user count, revenue, churn, paid sign\u2011ups).",
+    "No detailed founder background or team bios to assess credibility.",
+    "No market size analysis or explicit why\u2011now argument beyond generic LLM availability.",
+    "No evidence of a single, narrowly scoped workflow that is fully replaced."
+  ]
+}

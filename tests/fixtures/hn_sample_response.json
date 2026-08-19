@@ -1,0 +1,44 @@
+{
+  "hits": [
+    {
+      "title": "Show HN: Ledgerly \u2013 AI bookkeeper that reconciles your books nightly",
+      "url": "https://ledgerly.example.com",
+      "author": "j_founder",
+      "points": 142,
+      "num_comments": 38,
+      "objectID": "1001",
+      "story_text": "We built Ledgerly after watching my co-founder's mom spend Sundays reconciling receipts for her salon.",
+      "comment_text": null
+    },
+    {
+      "title": "Show HN: I built an AI code review bot for enterprise teams",
+      "url": "https://github.com/somedev/codebot",
+      "author": "somedev",
+      "points": 12,
+      "num_comments": 2,
+      "objectID": "1002",
+      "story_text": "Side project, works with GitHub Actions.",
+      "comment_text": null
+    },
+    {
+      "title": "Show HN: Malformed Title With No Dash Separator",
+      "url": "https://noformat.example.com",
+      "author": "anon123",
+      "points": 3,
+      "num_comments": 0,
+      "objectID": "1003",
+      "story_text": "",
+      "comment_text": null
+    },
+    {
+      "title": "Ask HN: What AI tools do SMBs actually use?",
+      "url": null,
+      "author": "curious99",
+      "points": 55,
+      "num_comments": 90,
+      "objectID": "1004",
+      "story_text": "",
+      "comment_text": null
+    }
+  ]
+}

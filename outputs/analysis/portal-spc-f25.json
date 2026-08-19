@@ -1,0 +1,61 @@
+{
+  "candidate_name": "Portal (SPC F25)",
+  "team": "Founder Zach (HN user zach4123) is the only publicly identified team member; no additional background or prior startup experience is provided.",
+  "product": "Portal lets users share a live, sandboxed browser session via a link, providing each viewer with a fresh, isolated browser instance that can be configured with guardrails. It offers a \"Watch Mode\" where an AI agent clicks through a demo and explains the product, and a \"Play Mode\" where users explore while the AI answers questions.",
+  "market": "The product targets SMBs that need to run product demos, onboarding, or user\u2011research sessions without requiring installs or logins. The pitch leans on current advances in LLM\u2011driven agents and the growing need for low\u2011friction, remote product experiences, but it does not quantify market size or articulate a concrete why\u2011now narrative.",
+  "risks": [
+    "Limited evidence of real\u2011world traction (only 5 HN points, no comments, no user metrics).",
+    "Team credibility is weak; no publicly known prior experience or technical depth beyond the founder\u2019s HN profile.",
+    "The solution addresses several related workflows (demos, onboarding, feedback) rather than a single, well\u2011defined manual task, which may dilute focus.",
+    "No public code repository or open\u2011source activity to gauge engineering capability or community interest."
+  ],
+  "scores": {
+    "workflow_specificity": 22,
+    "buyer_fit": 16,
+    "traction_signal": 8,
+    "team_credibility": 5,
+    "market_why_now": 5
+  },
+  "verdict": "Pass",
+  "verdict_rationale": "The startup shows a novel sandbox\u2011sharing tool, but there is scant traction, minimal team validation, and an unfocused workflow scope. Weighted scores sum to a low overall rating, falling well below the 45\u2011point threshold for a Watch.",
+  "change_my_mind": [
+    "Evidence of paying SMB customers regularly using the product for demos.",
+    "Clear founder background showing prior successful startup or deep domain expertise.",
+    "A single, narrowly defined manual task that the tool fully automates end\u2011to\u2011end."
+  ],
+  "claims_with_sources": [
+    {
+      "claim": "Portal lets you share a live sandbox browser session as a link.",
+      "source": "raw_text"
+    },
+    {
+      "claim": "The tool aims to replace inbound product demos in sales for SMBs.",
+      "source": "raw_text"
+    },
+    {
+      "claim": "Founder is Zach, an HN user (zach4123).",
+      "source": "founder_signal"
+    },
+    {
+      "claim": "Traction signal: 5 HN points, 0 comments.",
+      "source": "traction_signal"
+    },
+    {
+      "claim": "No public GitHub repository is linked.",
+      "source": "github_url"
+    },
+    {
+      "claim": "Product includes an AI Agent that can click through a demo and explain the product.",
+      "source": "raw_text"
+    },
+    {
+      "claim": "Potential use cases listed: user feedback, onboarding, sales demos for SMBs.",
+      "source": "raw_text"
+    }
+  ],
+  "data_gaps": [
+    "Quantitative user or revenue metrics to assess real traction.",
+    "Detailed founder or team background (prior startups, domain expertise, technical credentials).",
+    "Explicit market sizing or competitive analysis to justify a why\u2011now advantage."
+  ]
+}
